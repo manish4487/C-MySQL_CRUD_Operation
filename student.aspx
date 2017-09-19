@@ -15,28 +15,28 @@
              <td>  
                 <asp:Label ID="SID" runat="server" Visible="false"></asp:Label> </td>  
         </tr>     
-        <tr>  
+         <tr>  
             <td class="td">Name:</td>  
             <td>  
-                <asp:TextBox ID="txtName" runat="server"></asp:TextBox></td>             
+                <asp:TextBox ID="txtName" runat="server" placeholder="Enter Name"></asp:TextBox></td>             
         </tr>  
         <tr>  
             <td class="td">Address:</td>  
             <td>  
-                <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox></td>               
+                <asp:TextBox ID="txtAddress" runat="server" placeholder="Address"></asp:TextBox></td>               
         </tr>  
         <tr>  
             <td class="td">Mobile:</td>  
             <td>  
-                <asp:TextBox ID="txtMobile" runat="server"></asp:TextBox></td>              
+                <asp:TextBox ID="txtMobile" runat="server" placeholder="Enter Mobile Number"></asp:TextBox></td>              
         </tr>  
         <tr>  
             <td class="td">Email ID:</td>  
             <td>  
-                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>              
+                <asp:TextBox ID="txtEmail" runat="server" placeholder="Email"></asp:TextBox></td>              
         </tr> 
          
-        <tr>              
+        <tr>                           
             <td> 
                 <asp:Button ID="btnSubmit" runat="server" Text="Submit"  OnClientClick="return uservalid()" OnClick="btnSubmit_Click" />  
                 &nbsp;  
