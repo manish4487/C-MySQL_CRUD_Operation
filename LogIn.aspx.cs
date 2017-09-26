@@ -1,4 +1,4 @@
-﻿using System;
+ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,7 +16,11 @@ namespace MySQL_CRUD
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Student.aspx");
+            if (txtusername.Text.ToString() != "" && txtpassword.Text.ToString() != "")
+            {            
+                Response.Redirect("Student.aspx");
+            }            
         }
+
     }
 }
