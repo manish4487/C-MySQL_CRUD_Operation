@@ -1,5 +1,8 @@
-C#-MySQL_CRUD_Operation
-Web Application developed in C# showing Student information.Database is used MySQL where student table is created.
+Student Information System using C sharp and MySQL to perform CRUD operations on student data.
+Web Application: C#
+Database:MySQL
+Javascript: Uservalidation.js
+Bootstrap:3.3.7
 
 Front end:
 A)Student.aspx 
@@ -9,6 +12,8 @@ A)Student.aspx
 B)Student.aspx.cs
 Code written to View,Insert,Update and delete data from student table. 
 
+c)Login Page:
+Login and password for sign in operation.
 Backend:
 MySQL is used to create Student table.
 
