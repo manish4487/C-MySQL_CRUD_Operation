@@ -11,6 +11,9 @@
 </head>
 
 <body>
+      <div class="jumbotron">
+    <h1>Student Information System</h1>    
+</div>
     <div class="container">
     <form id="form1" runat="server">
     <table> 
