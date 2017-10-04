@@ -12,8 +12,13 @@
     <script src="SignIn.js" type="text/javascript"></script>
 </head>
 <body>
+    
+    <div class="jumbotron">
+    <h1>Student Information System</h1>    
+</div>
     <div class="container">
     <form id="form2" runat="server">
+         <h2>Login Details</h2>
     <table>            
         <tr>  
             <td class="td">Username:</td>  
