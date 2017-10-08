@@ -13,7 +13,7 @@ B)Student.aspx.cs
 Code written to View,Insert,Update and delete data from student table. 
 
 c)Login Page:
-Login and password for sign in operation.
+Login and password for sign in operation with validation.
 Backend:
 MySQL is used to create Student table.
 
