@@ -19,3 +19,7 @@ MySQL is used to create Student table.
 
 Script:
 Uservalidation.js file where client side validation are written.
+<p align="center">
+  <img src="Student-Information-System/Output Student Page.jpg" width="350"/>
+  <img src="Student-Information-System/Output2 Angular Page.jpg" width="350"/>  
+</p>
