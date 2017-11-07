@@ -62,6 +62,12 @@
                 <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" />                
             </Columns>
         </asp:GridView>
+     <table>
+            <tr>                
+            <td>  
+                <asp:Button ID="Btnfaculty" runat="server" class="btn btn-success" Text="Faculty" OnClick="Btnfaculty_Click" />                  
+            </tr>  
+        </table>
     </form>
     </div>
 
